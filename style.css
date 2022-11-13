@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+    font-size: 50px;
+    text-align: center;
+    line-height:90px;
+}
+
+.main {
+    background-color: rgb(32, 32, 32);
+    height: 800px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#display {
+    background-color: #3ef0d0e9;
+    display: flex;
+    height: 150px;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 30px;
+
+}
+.buttons {
+    margin-bottom: 50px;
+}
+
+.row1, .row2, .row3, .row4, .row5 {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: rgb(93, 93, 93);
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#all-clear:focus {     
+    background-color:rgb(255, 255, 255);    
+}
+
+#backspace:focus {     
+    background-color:rgb(224, 0, 0);    
+}
+
+#percent:focus, #plus:focus, #minus:focus, #divide:focus, #sign:focus, #decimal:focus, #multiply:focus {     
+    background-color:rgb(255, 225, 0);    
+}
+
+#equal:focus {
+    background-color: #24a700;
+}
+
+#zero:focus, #one:focus, #two:focus, #three:focus, #four:focus, #five:focus, #six:focus, #seven:focus, #eight:focus, #nine:focus {
+    background-color: rgb(185, 4, 152);
+}
+
+
