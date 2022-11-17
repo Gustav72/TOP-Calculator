@@ -51,7 +51,7 @@ body {
     background-color:rgb(224, 0, 0);    
 }
 
-#percent:focus, #plus:focus, #minus:focus, #divide:focus, #sign:focus, #decimal:focus, #multiply:focus {     
+#percent:focus, #plus:focus, #minus:focus, #divide:focus, #multiply:focus {     
     background-color:rgb(255, 225, 0);    
 }
 
@@ -59,7 +59,7 @@ body {
     background-color: #24a700;
 }
 
-#zero:focus, #one:focus, #two:focus, #three:focus, #four:focus, #five:focus, #six:focus, #seven:focus, #eight:focus, #nine:focus {
+#zero:focus, #one:focus, #two:focus, #three:focus, #four:focus, #five:focus, #six:focus, #seven:focus, #eight:focus, #nine:focus, #sign:focus, #decimal:focus {
     background-color: rgb(185, 4, 152);
 }
 
