@@ -59,8 +59,12 @@ body {
     background-color: #24a700;
 }
 
-#zero:focus, #one:focus, #two:focus, #three:focus, #four:focus, #five:focus, #six:focus, #seven:focus, #eight:focus, #nine:focus, #sign:focus, #decimal:focus {
+#zero:focus, #one:focus, #two:focus, #three:focus, #four:focus, #five:focus, #six:focus, #seven:focus, #eight:focus, #nine:focus     {
     background-color: rgb(185, 4, 152);
+}
+
+#sign:focus, #decimal:focus {
+    background-color: rgba(0, 0, 255, 0.703);
 }
 
 
