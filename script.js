@@ -1,26 +1,26 @@
-let a;
-let b;
-let operator;
-
+var a;
+var b;
+var operator = '';
+var operation = false;
 
 function addIt(a, b) {
-    return a + b;
+    return round(a + b); 
 }
 
 function subtractIt(a, b) {
-    return  a - b;
+    return round(a - b);
 }
 
 function multiplyIt(a, b) {
-    return a * b;
+    return round(a * b);
 }
 
 function divideIt(a, b) {
-    return a / b;
+    return round(a / b);
 }
 
 function percentIt(a) {
-    return a / 100;
+    return round(a / 100);
 }
 
 function operate(operator, a, b) {
@@ -121,31 +121,32 @@ minus.onclick = () => {
 
 
  }
-
 decimal.onclick = () => {
     if (display.textContent.includes('.')) return
     else display.textContent += '.';
 }
-
 allClear.onclick = () => {
     display.textContent = '';
-    
+    operator = '';
+    operation = false;
+    a = null;
+    b = null;
 }
-
 backspace.onclick = () => {
     display.textContent = display.textContent.slice(0, -1);
 }
-
 sign.onclick = () => {
     if (!display.textContent.includes('-')) display.textContent = '-' + display.textContent
     else if (display.textContent.includes('-')) display.textContent = display.textContent.substring(1);
 }
-
 equal.onclick = function() {
+    b = Number(display.textContent);
+    operate(operator, a, b)
+    operation = false;
+}
 
-b = Number(display.textContent);
-operate(operator, a, b)
-
+function round (ans) {
+    return Math.round(ans * 1000) / 1000;
 }
 
 

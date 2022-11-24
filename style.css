@@ -24,6 +24,8 @@ body {
     margin: auto;
     margin-top: 50px;
     border-radius: 30px;
+    direction: rtl;
+    overflow: auto;
 
 }
 .buttons {
