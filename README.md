@@ -18,6 +18,6 @@ The Landing Page project from [The Odin Project](https://www.theodinproject.com/
 
 This project features a calculator with logic built with JavaScript. Several mathematical operations are featured.
 
-![Screenshot of User Interface](./Screenshot.png)
+![Screenshot of User Interface](./Screenshot1.png)
 
 Thank You for taking the time to look at my work!
