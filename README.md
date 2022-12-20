@@ -1,6 +1,6 @@
 # TOP-Calculator
 
-The Landing Page project from [The Odin Project](https://www.theodinproject.com/)
+Project from [The Odin Project](https://www.theodinproject.com/)
 
 ## [Live Demo](https://gustav72.github.io/TOP-Calculator/)
 
